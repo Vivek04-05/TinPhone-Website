@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>tinPhone</title>
+    
+    <!-- here we add link of font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+    
+    <!-- here we add link of Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    
+    <!-- here we add Fontawsome.com which is for small icon-->
+    <script src="https://kit.fontawesome.com/551b4bda7a.js" crossorigin="anonymous"></script>
+    
+    <!-- Here we add link of bootstrap JAVASCRIPT-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    
+    <!-- Here we add Local CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+
+<body>
+
+  <section id="title">
+    <div class="container-fluid">
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <a class="navbar-brand" href="/main" >tinPhone</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+          <li class="nav-item" >
+              <a class="nav-link" href="/contact">Contact  </a>
+          </li>
+          <li class="nav-item"> <!-- style="margin-right: 10px;" -> From our side Just for spacing -->
+              <a class="nav-link" href="#pricing">Pricing  </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#cta">Download </a>
+          </li>
+          <li class="nav-item" href="" style="background-color :darkgrey;">
+              <a class="nav-link" href="/">Log Out</a> 
+          </li>
+      </ul>
+      </div>
+  </nav>
+
+
+
+    <!-- Title "title-set is pre define"-->
+    <div class="row title-set">
+    <div class="col-lg-6  col-sm-12">
+      <h1 class="title-section">Meet new and interesting SmartPhone.</h1> 
+      <!-- .download-button is made by me for targeting download button in title section-->
+      <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i>Download</button>
+      <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-google-play"></i>Download</button>
+    </div>
+    <div class="col-lg-6 col-sm-12">
+      <!--title-image is self define-->
+      <img  class="title-image" src="images/iphone6.png" alt="iphone-mockup">
+    </div>
+    </div>
+    </div>
+
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+
+    <div class="row">
+      <div class="col-lg-4 col-sml-12 features-box">
+        <i class="fa-solid fa-circle-check fa-3x features-icon"></i>
+    <h3 class="features-text">Easy to use.</h3>
+    <p >So easy to use, and learn.</p>
+      </div>
+      <div class="col-lg-4 col-sml-12 features-box">
+        <i class="fa-sharp fa-solid fa-bullseye fa-3x features-icon"></i>
+    <h3 class="features-text">Elite Clientele</h3>
+    <p >We have all types of SmartPhone.</p>
+      </div>
+      <div class="col-lg-4 col-sml-12 features-box">
+<i class="fa-regular fa-heart fa-3x features-icon"></i>
+    <h3 class="features-text">Guaranteed to Service.</h3>
+    <p>Service Guaranteed or your money back.</p>
+      </div>
+  </div> 
+
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+   
+
+    <div id="testimonails-carousal" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active" >
+          <h2 class="testimonial-text">I no longer have to problem in using smartphone.I learn how to use it .love it</h2>
+    <img class="testimonials-image" src="images/dog-img.jpg" alt="dog-profile">
+    <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item" >
+          <h2 class="testimonial-text">I can learn many thing by using smartPhone and it all thank to tinPhone they make me able to use gadget .</h2>
+          <img class="testimonials-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonails-carousal" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonails-carousal" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+   
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2 class="pricing-text">A Plan for Every Gaget's Needs</h2>
+    <p>Simple and affordable price plans for you.</p>
+
+    <div class="row  text-center"> <!-- tetxt-center -> used for centering the text-->
+      <div class="col-lg-4 col-md-6  pricing-column"> <!-- pricing-column made by me-->
+        <div class="card">
+          <div class="card-header">
+            <h4 class="pricing-edit">Smart Phone</h4> <!-- .pricing-edit is made by me-->
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-section">Free <small class="text-muted fw-light">/mo</small></h1>
+            <ul class="list-unstyled ">
+              <li>5 Matches Per Day</li>
+              <li>10 Messages Per Day</li>
+              <li>Unlimited App Usage</li>
+              <br>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 pricing-column">
+        <div class="card ">
+          <div class="card-header">
+            <h4 class="pricing-edit">Tablet</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-section">$49 <small class="text-muted fw-light">/mo</small></h1>
+            <ul class="list-unstyled">
+              <li>Unlimited Matches</li>
+              <li>Unlimited Messages</li>
+              <li>Unlimited App Usage</li>
+              <br> <!-- br jusi for space-->
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-primary">Sign up for free</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 pricing-column">
+        <div class="card ">
+          <div class="card-header">
+            <h4 class="pricing-edit">Desktop/Laptop</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-section">$99 <small class="text-muted fw-light">/mo</small></h1>
+            <ul class="list-unstyled">
+              <li>Pirority Listing</li>
+              <li>Unlimited Matches</li>
+              <li>Unlimited Messages</li>
+              <li>Unlimited App Usage</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-primary">Sign up for free</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3 class="ctas-section">Find the True Love and Learn new things.</h3>
+    <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i>Download</button>
+    <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-google-play"></i>Download</button>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <div class="footer-icon-brand">
+   <a href=""><i class="fa-brands fa-twitter footer-icon"></i></a>
+    <a href=""><i class="fa-brands fa-square-instagram footer-icon"></i></a>
+    <a href=""><i class="fa-brands fa-facebook footer-icon"></i></a>
+    <a href=""><i class="fa-solid fa-envelope footer-icon"></i></a>
+    <p>© Copyright TinDog</p>
+    </div>
+
+  </footer>
+
+
+</body>
+
+</html>
